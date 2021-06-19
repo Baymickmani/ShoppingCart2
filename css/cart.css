@@ -1,0 +1,42 @@
+header, footer {
+    background-color: lightcoral;
+    text-align: center;
+    padding: 2px;
+    color: white;
+}
+
+button{
+    padding: 10px; 
+    font-size: larger;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  ul li {
+    border: 1px solid #ddd; 
+    margin-top: -1px; 
+    background-color: #f6f6f6; 
+    padding: 12px; 
+  }
+
+span {
+    position: relative;
+    left: 100px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a{
+    color: darkgoldenrod
+}
+
+#total {
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    font-variant: small-caps;
+}

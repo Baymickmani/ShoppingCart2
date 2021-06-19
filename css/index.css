@@ -1,0 +1,64 @@
+header, footer {
+    background-color: lightcoral;
+    text-align: center;
+    padding: 2px;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: lightsalmon;
+    padding: 10px;
+    flex: 50%;
+  }
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+
+  .price {
+    color: darkmagenta;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+a{
+    color: darkgoldenrod
+}
